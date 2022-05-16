@@ -1,5 +1,7 @@
 .content{
 
-
-    
-}
+    display: flex;
+    flex: 1;
+    background-color: gray;
+    padding: 30px;
+}   

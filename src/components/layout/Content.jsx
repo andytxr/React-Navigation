@@ -1,11 +1,11 @@
 import React from "react";
 
-import './content.css'
+import './Content.css'
 
 let Content = props => (
 
     <main className="content">
-        content component
+        <h1>Content Component</h1>
     </main>
 
 )

@@ -5,7 +5,12 @@ import './Menu.css'
 let Menu = props => (
 
     <aside className="menu">
-        menu component
+       <nav>
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="/">Sobre</a></li>
+            </ul>
+       </nav>
     </aside>
 
 )

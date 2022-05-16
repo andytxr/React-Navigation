@@ -3,8 +3,8 @@ import React from "react";
 let Home = props => (
 
     <div className="home">
-        <h1>Home</h1>
-        <p>Welcome</p>
+        <h1>Início</h1>
+        <p>Bem vindo!</p>
     </div>
 
 )
