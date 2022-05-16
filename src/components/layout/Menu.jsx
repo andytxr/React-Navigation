@@ -10,7 +10,9 @@ let Menu = props => (
        <nav>
             <ul>
                 <li><Link to="/">Início</Link></li>
-                <li><Link to="/about">Sobre</Link></li>
+                <li><Link to="/params/123">Parâmetros - 1</Link></li>
+                <li><Link to="/params/sim">Parâmetros - 2</Link></li>
+                <li><Link to="/about">Sobre</Link></li>   
             </ul>
        </nav>
     </aside>
