@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from  'react-router-dom'
 
 import './App.css'
 
@@ -8,8 +9,10 @@ import Content from '../components/layout/Content';
 let App = props => (
 
     <div className="app">
-        <Menu></Menu>
-        <Content></Content>
+        <BrowserRouter>
+            <Menu></Menu>
+            <Content></Content>
+        </BrowserRouter>
     </div>
 
 )
